@@ -1,4 +1,4 @@
-:root{
+:root {
     --primary-color: #507DBC;
     --secondary-color: #A1C6EA;
     --accent1-color: #BBD1EA;
@@ -7,32 +7,36 @@
     --heading-font: Merriweather;
     --text-font: PT Serif;
 }
-body{
+body {
     font-family: "Merriweather", serif;
 }
-h1{
+h1 {
     font-weight: 300;
     color: var(--accent1-color);
 }
-p{
+p {
     font-weight: 100;
     color: var(--primary-color);
 }
 /* The following CSS selector (rule) removes underlines from all hyperlinks. Do not do this.*/
-a{
+a {
     text-decoration: none;
 }
 .hero {
     position: relative;
 }
-.hero img{
+.hero img {
     display: block;
     width: 100%;
     height: auto;
 }
-.hero h1{
+.hero h1 {
     position: absolute;
+    top: 15px;
+    left: 15px;
 }
-.hero article{
+.hero article {
     position: absolute;
+    bottom: 15px;
+    right: 15px;
 }
