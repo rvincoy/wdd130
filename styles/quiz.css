@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+   font-family: "Yuji Mai", serif;
+    font-weight: 400; 
+    font-style: normal;
+    color: #333;
+    background: #fff;
+}
+header {
+    margin: 0 auto;
+    width: 650px;
+}
+h1 {
+    margin: 1 rem;
+    font-size: 1.5em;
+    color: navy;
+    text-align: center;
+}
+form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgb(0 0 0 / 0.1);
+    border-radius: 0.5rem;
+    background-color: #eee;
+    display: grid;
+    gap: 1rem;
+}
+label {
+    text-align: left;
+    display:grid;
+    padding-right: 1rem;
+}
+input, select, textarea {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+button {
+    margin: 1rem;
+    background-color: navy;
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;;
+}
