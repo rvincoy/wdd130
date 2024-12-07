@@ -73,3 +73,43 @@ h2 {
     gap: 50px;
     align-items: center;
 }
+form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgb(0 0 0 / 0.1);
+    border-radius: 0.5rem;
+    background-color: #eee;
+    display: grid;
+    position: absolute;
+    right: 10px;
+    top: 220px;
+    gap: 20px;
+}
+button {
+    margin: 1rem;
+    background-color: navy;
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;;
+}
+label {
+    text-align: left;
+}
+textarea {
+    width: 400px;
+}
+.pics {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+}
+figcaption {
+    text-align: center;
+}
+
+
+
+
