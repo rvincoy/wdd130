@@ -16,7 +16,7 @@ h1 {
 }
 p {
     font-weight: 100;
-    color: var(--primary-color);
+    color: var(--black);
 }
 /* The following CSS selector (rule) removes underlines from all hyperlinks. Do not do this.*/
 a {
