@@ -34,11 +34,19 @@ a {
     position: absolute;
     top: 15px;
     left: 700px;
+    color: red;
 }
 .hero article {
     position: absolute;
     bottom: 15px;
     right: 15px;
+}
+.newsletter {
+    position: absolute;
+    bottom: 15px;
+}
+.newsletter p {
+    color: yellow;
 }
 header {
     display: grid;
@@ -86,6 +94,17 @@ form {
     top: 260px;
     gap: 20px;
 }
+.hmform {
+    width: 550px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgb(0 0 0 / 0.1);
+    border-radius: 0.5rem;
+    background-color: #eee;
+    display: grid;
+    top: 500px;
+    right:10px;
+}
 button {
     margin: 1rem;
     background-color: navy;
@@ -109,7 +128,3 @@ textarea {
 figcaption {
     text-align: center;
 }
-
-
-
-
